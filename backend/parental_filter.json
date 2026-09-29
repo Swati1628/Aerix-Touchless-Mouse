@@ -1,0 +1,18 @@
+{
+  "blocked_domains": [
+    "blocked-test.example"
+  ],
+  "blocked_site_names": [
+    "netmirror",
+    "pikashow",
+    "ppcine",
+    "vegamovies",
+    "gomovies",
+    "spoteuve",
+    "dailymotion",
+    "moviebox"
+  ],
+  "blocked_categories": [],
+  "category_domains": {},
+  "unknown_target_policy": "allow"
+}

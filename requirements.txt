@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+opencv-python
+mediapipe
+pyautogui
+numpy
+sounddevice
+vosk
+python-multipart
+scikit-learn==1.7.2
+python-dotenv

@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "Touchless Mouse Link Protection",
+  "version": "1.0.0",
+  "description": "Checks changed link targets against the local Touchless Mouse FastAPI safety API.",
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": [
+    "http://127.0.0.1:8000/*",
+    "*://*.net27.cc/*",
+    "*://*.net77.cc/*",
+    "*://*.netmirror.world/*",
+    "*://*.netmirror.center/*",
+    "*://*.pikashow-original.com/*",
+    "*://*.ppcine.com/*",
+    "*://*.ppcine.org/*",
+    "*://*.1vegamovies.tw/*",
+    "*://*.vegamovies.mq/*",
+    "*://*.rogmovies.work/*",
+    "*://*.vglist.top/*",
+    "*://*.gomovies.gg/*",
+    "*://*.dailymotion.com/*",
+    "*://*.moviebox.gd/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "aerix_hard_blocks",
+      "enabled": true,
+      "path": "hard_block_rules.json"
+    }]
+  },
+  "web_accessible_resources": [{
+    "resources": ["blocked.html", "blocked.js"],
+    "matches": ["<all_urls>"]
+  }],
+  "background": {"service_worker": "service_worker.js"},
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["content.js"],
+    "run_at": "document_start"
+  }]
+}

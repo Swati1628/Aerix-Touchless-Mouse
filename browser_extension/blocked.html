@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aerix Security Warning</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; }
+    body { min-height: 100vh; margin: 0; display: grid; place-items: center; background: #101827; color: #f8fafc; }
+    main { box-sizing: border-box; width: min(560px, calc(100% - 32px)); padding: 32px; border: 1px solid #7f1d1d; border-radius: 16px; background: #1e293b; box-shadow: 0 18px 50px #0008; }
+    h1 { margin: 0 0 18px; color: #fecaca; font-size: 1.7rem; }
+    p { line-height: 1.6; }
+    code { overflow-wrap: anywhere; color: #fde68a; }
+  </style>
+  <script src="blocked.js" defer></script>
+</head>
+<body>
+  <main role="alert">
+    <h1>⚠️ AERIX SECURITY WARNING</h1>
+    <p>This website has been blocked by Aerix.</p>
+    <p>Blocked hostname: <code id="blocked-host">Unknown</code></p>
+    <p>Reason: Blocked by Aerix custom security policy.</p>
+  </main>
+</body>
+</html>

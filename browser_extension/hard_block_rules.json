@@ -1,0 +1,16 @@
+[
+  {"id": 1, "priority": 100, "action": {"type": "redirect", "redirect": {"extensionPath": "/blocked.html?host=net27.cc"}}, "condition": {"urlFilter": "||net27.cc/", "resourceTypes": ["main_frame"]}},
+  {"id": 2, "priority": 100, "action": {"type": "redirect", "redirect": {"extensionPath": "/blocked.html?host=net77.cc"}}, "condition": {"urlFilter": "||net77.cc/", "resourceTypes": ["main_frame"]}},
+  {"id": 3, "priority": 100, "action": {"type": "redirect", "redirect": {"extensionPath": "/blocked.html?host=netmirror.world"}}, "condition": {"urlFilter": "||netmirror.world/", "resourceTypes": ["main_frame"]}},
+  {"id": 4, "priority": 100, "action": {"type": "redirect", "redirect": {"extensionPath": "/blocked.html?host=pikashow-original.com"}}, "condition": {"urlFilter": "||pikashow-original.com/", "resourceTypes": ["main_frame"]}},
+  {"id": 5, "priority": 100, "action": {"type": "redirect", "redirect": {"extensionPath": "/blocked.html?host=ppcine.com"}}, "condition": {"urlFilter": "||ppcine.com/", "resourceTypes": ["main_frame"]}},
+  {"id": 6, "priority": 100, "action": {"type": "redirect", "redirect": {"extensionPath": "/blocked.html?host=ppcine.org"}}, "condition": {"urlFilter": "||ppcine.org/", "resourceTypes": ["main_frame"]}},
+  {"id": 7, "priority": 100, "action": {"type": "redirect", "redirect": {"extensionPath": "/blocked.html?host=1vegamovies.tw"}}, "condition": {"urlFilter": "||1vegamovies.tw/", "resourceTypes": ["main_frame"]}},
+  {"id": 8, "priority": 100, "action": {"type": "redirect", "redirect": {"extensionPath": "/blocked.html?host=vegamovies.mq"}}, "condition": {"urlFilter": "||vegamovies.mq/", "resourceTypes": ["main_frame"]}},
+  {"id": 9, "priority": 100, "action": {"type": "redirect", "redirect": {"extensionPath": "/blocked.html?host=rogmovies.work"}}, "condition": {"urlFilter": "||rogmovies.work/", "resourceTypes": ["main_frame"]}},
+  {"id": 10, "priority": 100, "action": {"type": "redirect", "redirect": {"extensionPath": "/blocked.html?host=vglist.top"}}, "condition": {"urlFilter": "||vglist.top/", "resourceTypes": ["main_frame"]}},
+  {"id": 11, "priority": 100, "action": {"type": "redirect", "redirect": {"extensionPath": "/blocked.html?host=gomovies.gg"}}, "condition": {"urlFilter": "||gomovies.gg/", "resourceTypes": ["main_frame"]}},
+  {"id": 12, "priority": 100, "action": {"type": "redirect", "redirect": {"extensionPath": "/blocked.html?host=dailymotion.com"}}, "condition": {"urlFilter": "||dailymotion.com/", "resourceTypes": ["main_frame"]}},
+  {"id": 13, "priority": 100, "action": {"type": "redirect", "redirect": {"extensionPath": "/blocked.html?host=moviebox.gd"}}, "condition": {"urlFilter": "||moviebox.gd/", "resourceTypes": ["main_frame"]}},
+  {"id": 14, "priority": 100, "action": {"type": "redirect", "redirect": {"extensionPath": "/blocked.html?host=netmirror.center"}}, "condition": {"urlFilter": "||netmirror.center/", "resourceTypes": ["main_frame"]}}
+]
